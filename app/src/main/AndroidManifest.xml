@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImagePlayer">
         <activity
+            android:name=".MediaPlayerActivity"
+            android:exported="false" />
+        <activity
             android:name=".ImageActivity"
             android:exported="false" />
         <activity
@@ -21,6 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>
